@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lägg till arbetserfarenhet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Lägg till arbetserfarenhet</h1>
+
+    <nav>
+        <a href="index.html">Start</a>
+        <a href="add.html">Lägg till</a>
+        <a href="about.html">Om</a>
+    </nav>
+</header>
+
+<main>
+    <form id="experience-form">
+
+        <label>Företagsnamn</label>
+        <input type ="text" id="companyname" aria-label ="companyname">
+
+        <label>Jobbtitel</label>
+        <input type="text" id="jobtitle" aria-label = "companyname">
+
+        <label>Plats</label>
+        <input type="text" id="location" aria-label="location">
+
+        <label>Startdatum</label>
+        <input type="date" id="startdate" aria-label="location">
+
+        <label>Slutdatum</label>
+        <input type="date" id="enddate" aria-label="enddate">
+
+        <label>Beskrivning</label>
+        <textarea id ="description" aria-label="description"></textarea>
+
+        <button type="submit">Spara</button>
+
+    </form>
+
+    <p id="message"></p>
+</main>
+
+<script src="js/config.js"></script>
+<script src="js/add.js"></script>
+
+</body>
+</html>
