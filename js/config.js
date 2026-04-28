@@ -1,1 +1,1 @@
-const API_URL = "https://workexperience-api-9ekl.onrender.com/";
+const API_URL = "https://workexperience-api-9ekl.onrender.com/api/workexperience";
