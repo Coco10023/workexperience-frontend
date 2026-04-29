@@ -3,6 +3,7 @@ async function loadExperiences() {
     const message = document.getElementById("message");
 
     try {
+        // Hämta data från API
         const response = await fetch(API_URL);
         const data = await response.json();
 

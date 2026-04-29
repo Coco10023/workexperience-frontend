@@ -1,6 +1,7 @@
 const form = document.getElementById("experience-form");
 const message = document.getElementById("message");
 
+// Validera formulär innan POST
 function validateForm(data) {
     if (!data.companyname.trim()) return "Företagsnamn saknas";
     if (!data.jobtitle.trim()) return "Jobbtitel saknas";
@@ -36,6 +37,7 @@ form.addEventListener("submit", async (e) => {
     }
 
     try {
+        // Skicka POST-request till API
         const response = await fetch(API_URL, {
             method: "POST",
             headers: {
