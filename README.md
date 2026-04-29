@@ -32,6 +32,9 @@ Klona repot
 Starta backend-servern (npm run dev)
 Öppna index.html med Live Server
 
+## Publicering 
+https://coco10023.github.io/workexperience-frontend/ 
+
 ## Slutsatser
 
 I denna uppgift har jag lärt mig hur man bygger en REST-baserad webbtjänst med Node.js och Express samt hur man kopplar en fristående frontend till backend via Fetch API. Jag har även fått förståelse för CRUD-operationer och hur data lagras i en relationsdatabas (MySQL).
